@@ -11,7 +11,7 @@ export default function Portfolio() {
         <section className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 pt-8 mr-10">
           <div>
             <h1 className="text-5xl font-bold mb-2 text-[hsl(0,0%,98%)]">Hi, Mohit here</h1>
-            <p className="text-xl text-[hsl(0,0%,63.9%)]">21 year old something guy</p>
+            <p className="text-l text-[hsl(0,0%,63.9%)]">21, i build things on the internet.</p>
           </div>
           <div className="mt-6 md:mt-0">
             <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-[hsl(0,0%,14.9%)]">
