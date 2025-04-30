@@ -44,7 +44,13 @@ export default function Portfolio() {
             <div className="flex items-start">
               <div className="mr-4">
                 <div className="w-12 h-12 bg-[hsl(0,0%,14.9%)] rounded-full flex items-center justify-center overflow-hidden">
-                  <span className="text-xs text-[hsl(0,0%,98%)]">P1</span>
+                  <Image
+                    src="https://burgerhouserestro.vercel.app/assets/logo-white.png"
+                    alt="Burger House Logo"
+                    width={32}
+                    height={32}
+                    className="object-contain"
+                  />
                 </div>
               </div>
               <div className="flex-1">
@@ -57,10 +63,10 @@ export default function Portfolio() {
                     Mobile-first approach ensuring compatibility across all devices and screen sizes.
                     </p>
                     <div className="mt-2">
-                      <a href="https://burgerhouserestro.vercel.app/" className="text-blue-400 text-sm mr-4" target="_blank">
+                      <a href="https://burgerhouserestro.vercel.app/" className="text-blue-500 text-sm mr-4 hover:text-blue-600" target="_blank">
                         View Demo
                       </a>
-                      <a href="https://github.com/mohitngi/burger-house" className="text-blue-400 text-sm" target="_blank">
+                      <a href="https://github.com/mohitngi/burger-house" className="text-blue-500 text-sm hover:text-blue-600" target="_blank">
                         GitHub
                       </a>
                     </div>
@@ -74,7 +80,13 @@ export default function Portfolio() {
             <div className="flex items-start">
               <div className="mr-4">
                 <div className="w-12 h-12 bg-[hsl(0,0%,14.9%)] rounded-full flex items-center justify-center overflow-hidden">
-                  <span className="text-xs text-[hsl(0,0%,98%)]">P2</span>
+                <Image
+                    src="/BizBlogs.png"
+                    alt="Burger House Logo"
+                    width={32}
+                    height={32}
+                    className="pt-3 w-96 h-16"
+                  />
                 </div>
               </div>
               <div className="flex-1">
@@ -87,10 +99,10 @@ export default function Portfolio() {
                     Users can create bold descriptions for their posts with TinyMCE rich text editor.
                     </p>
                     <div className="mt-2">
-                      <a href="https://bizblogs.vercel.app" className="text-blue-400 text-sm mr-4" target="_blank">
+                      <a href="https://bizblogs.vercel.app" className="text-blue-500 text-sm mr-4 hover:text-blue-600" target="_blank">
                         View Demo
                       </a>
-                      <a href="https://github.com/mohitngi/bizblogs" className="text-blue-400 text-sm" target="_blank">
+                      <a href="https://github.com/mohitngi/bizblogs" className="text-blue-500 text-sm hover:text-blue-600" target="_blank">
                         GitHub
                       </a>
                     </div>
@@ -144,7 +156,7 @@ export default function Portfolio() {
         <section className="mb-16 text-center">
           <p className="text-gray-400">
             say hello on{" "}
-            <a href="https://x.com/mohitngi" className="text-blue-400">
+            <a href="https://x.com/mohitngi" className="text-blue-500 hover:underline" target="_blank">
               x dot com
             </a>
           </p>

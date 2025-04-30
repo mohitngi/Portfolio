@@ -8,6 +8,11 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Mohit Negi",
   description: "Personal portfolio website",
+  icons: {
+    icon: [
+      { url: '/pfp.png', type: 'image/png', sizes: '32x32' },
+    ],
+  },
 }
 
 export default function RootLayout({
