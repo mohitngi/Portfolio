@@ -49,7 +49,7 @@ export default function Portfolio() {
                     alt="Burger House Logo"
                     width={32}
                     height={32}
-                    className="object-contain"
+                    className="object-contain grayscale brightness-90"
                   />
                 </div>
               </div>
@@ -64,7 +64,7 @@ export default function Portfolio() {
                     </p>
                     <div className="mt-2">
                       <a href="https://burgerhouserestro.vercel.app/" className="text-blue-500 text-sm mr-4 hover:text-blue-600" target="_blank">
-                        View Demo
+                        View
                       </a>
                       <a href="https://github.com/mohitngi/burger-house" className="text-blue-500 text-sm hover:text-blue-600" target="_blank">
                         GitHub
@@ -82,10 +82,10 @@ export default function Portfolio() {
                 <div className="w-12 h-12 bg-[hsl(0,0%,14.9%)] rounded-full flex items-center justify-center overflow-hidden">
                 <Image
                     src="/BizBlogs.png"
-                    alt="Burger House Logo"
+                    alt="Bizblogs Logo"
                     width={32}
                     height={32}
-                    className="pt-3 w-96 h-16"
+                    className="pt-3 w-96 h-16 grayscale brightness-90"
                   />
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default function Portfolio() {
                     </p>
                     <div className="mt-2">
                       <a href="https://bizblogs.vercel.app" className="text-blue-500 text-sm mr-4 hover:text-blue-600" target="_blank">
-                        View Demo
+                        View
                       </a>
                       <a href="https://github.com/mohitngi/bizblogs" className="text-blue-500 text-sm hover:text-blue-600" target="_blank">
                         GitHub
