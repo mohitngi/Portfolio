@@ -28,7 +28,7 @@ export default function Portfolio() {
 
         {/* About Section */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-4 text-[hsl(0,0%,98%)]">About</h2>
+          <h2 className="text-xl font-bold mb-3 text-[hsl(0,0%,98%)]">About</h2>
           <p className="text-[hsl(0,0%,63.9%)] mb-4">front-end dev, engineer.</p>
           <p className="text-[hsl(0,0%,63.9%)] mb-4">i like technology and deep science. It's just cool ig.</p>
           <p className="text-[hsl(0,0%,63.9%)] mb-4">
@@ -38,7 +38,7 @@ export default function Portfolio() {
 
         {/* Projects Section (replacing Work Experience) */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 text-[hsl(0,0%,98%)]">Some projects I built</h2>
+          <h2 className="text-xl font-bold mb-5 text-[hsl(0,0%,98%)]">Some projects I built</h2>
 
           <div className="mb-6">
             <div className="flex items-start">
@@ -115,7 +115,7 @@ export default function Portfolio() {
 
         {/* Education Section */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6">Education</h2>
+          <h2 className="text-xl font-bold mb-4">Education</h2>
 
           <div className="mb-6">
             <div className="flex items-start">
