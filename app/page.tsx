@@ -141,7 +141,7 @@ export default function Portfolio() {
 
         {/* Skills Section */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6">Skills</h2>
+          <h2 className="text-xl font-bold mb-4">Skills</h2>
           <div className="flex flex-wrap gap-2">
             <span className="px-3 py-1 bg-gray-800 rounded-full text-sm">React</span>
             <span className="px-3 py-1 bg-gray-800 rounded-full text-sm">Tailwind CSS</span>
