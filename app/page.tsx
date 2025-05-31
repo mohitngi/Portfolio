@@ -45,28 +45,28 @@ export default function Portfolio() {
               <div className="mr-4">
                 <div className="w-12 h-12 bg-[hsl(0,0%,14.9%)] rounded-full flex items-center justify-center overflow-hidden">
                   <Image
-                    src="https://burgerhouserestro.vercel.app/assets/logo-white.png"
-                    alt="Burger House Logo"
-                    width={32}
-                    height={32}
-                    className="object-contain grayscale brightness-90"
+                    src="https://www.shutterstock.com/image-vector/split-bill-icon-two-arrows-260nw-2542193945.jpg"
+                    alt="Bill Splitter"
+                    width={50}
+                    height={50}
+                    className="object-contain grayscale brightness-90 mt-1"
                   />
                 </div>
               </div>
               <div className="flex-1">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)]">Burger House</h3>
-                    <p className="text-[hsl(0,0%,63.9%)]">JavaScript, HTML, CSS</p>
+                    <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)]">Bill Splitter</h3>
+                    <p className="text-[hsl(0,0%,63.9%)]">React, Typescript, Tailwind CSS, Shadcn</p>
                     <p className="text-[hsl(0,0%,63.9%)] mt-2">
-                    Developed a fully responsive and visually appealing fast food restaurant website as a concept project to showcase front-end development skills. <br/>
-                    Mobile-first approach ensuring compatibility across all devices and screen sizes.
+                   Built a responsive and intuitive web application that simplifies group expense splitting. 
+                   Users can add participants, input expenses, and instantly calculate who owes whom.
                     </p>
                     <div className="mt-2">
-                      <a href="https://burgerhouserestro.vercel.app/" className="text-blue-500 text-sm mr-4 hover:text-blue-600" target="_blank">
+                      <a href="https://billsplitterr.vercel.app/" className="text-blue-500 text-sm mr-4 hover:text-blue-600" target="_blank">
                         View
                       </a>
-                      <a href="https://github.com/mohitngi/burger-house" className="text-blue-500 text-sm hover:text-blue-600" target="_blank">
+                      <a href="https://github.com/mohitngi/bill-splitter" className="text-blue-500 text-sm hover:text-blue-600" target="_blank">
                         GitHub
                       </a>
                     </div>
@@ -79,13 +79,13 @@ export default function Portfolio() {
           <div className="mb-6">
             <div className="flex items-start">
               <div className="mr-4">
-                <div className="w-12 h-12 bg-[hsl(0,0%,14.9%)] rounded-full flex items-center justify-center overflow-hidden">
+                <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center overflow-hidden">
                 <Image
-                    src="/BizBlogs.png"
+                    src="/bizblogs.png"
                     alt="Bizblogs Logo"
                     width={32}
                     height={32}
-                    className="pt-3 w-96 h-16 grayscale brightness-90"
+                    className="pt-3 w-96 h-16 grayscale"
                   />
                 </div>
               </div>
