@@ -81,7 +81,7 @@ export default function Portfolio() {
               <div className="mr-4">
                 <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center overflow-hidden">
                 <Image
-                    src="/bizblogs.png"
+                    src="BizBlogs.png"
                     alt="Bizblogs Logo"
                     width={32}
                     height={32}
