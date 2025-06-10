@@ -43,23 +43,23 @@ export default function Portfolio() {
           <div className="mb-6">
             <div className="flex items-start">
               <div className="mr-4">
-                <div className="w-12 h-12 bg-[hsl(0,0%,14.9%)] rounded-full flex items-center justify-center overflow-hidden">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center overflow-hidden">
                   <Image
                     src="https://www.shutterstock.com/image-vector/split-bill-icon-two-arrows-260nw-2542193945.jpg"
                     alt="Bill Splitter"
                     width={50}
                     height={50}
-                    className="object-contain grayscale brightness-90 mt-1"
+                    className="object-contain grayscale mt-1"
                   />
                 </div>
               </div>
               <div className="flex-1">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)]">Bill Splitter</h3>
+                    <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)] ">Bill Splitter</h3>
                     <p className="text-[hsl(0,0%,63.9%)]">React, Typescript, Tailwind CSS, Shadcn</p>
                     <p className="text-[hsl(0,0%,63.9%)] mt-2">
-                   Built a responsive and intuitive web application that simplifies group expense splitting. 
+                   Built a responsive and intuitive web application that simplifies group expense splitting.
                    Users can add participants, input expenses, and instantly calculate who owes whom.
                     </p>
                     <div className="mt-2">
@@ -67,6 +67,42 @@ export default function Portfolio() {
                         View
                       </a>
                       <a href="https://github.com/mohitngi/bill-splitter" className="text-blue-500 text-sm hover:text-blue-600" target="_blank">
+                        GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mb-6">
+            <div className="flex items-start">
+              <div className="mr-4">
+                <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center overflow-hidden">
+                  <Image
+                    src="streamline.svg"
+                    alt="StreamLine"
+                    width={24}
+                    height={24}
+                    className="object-contain grayscale "
+                  />
+                </div>
+              </div>
+              <div className="flex-1">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)]">StreamLine</h3>
+                    <p className="text-[hsl(0,0%,63.9%)]">Next.js, Tailwind CSS, Radix UI/Shadcn</p>
+                    <p className="text-[hsl(0,0%,63.9%)] mt-2">
+                    Built a high-performance, responsive SaaS landing page designed to promote a workflow optimization tool. <br />
+                    The page features a clean, modern UI with smooth navigation, clear call-to-action elements, and SEO-friendly structure.  
+                    </p>
+                    <div className="mt-2">
+                      <a href="https://streamlineworkflow.vercel.app/" className="text-blue-500 text-sm mr-4 hover:text-blue-600" target="_blank">
+                        View
+                      </a>
+                      <a href="https://github.com/mohitngi/streamline" className="text-blue-500 text-sm hover:text-blue-600" target="_blank">
                         GitHub
                       </a>
                     </div>
