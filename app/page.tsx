@@ -96,7 +96,7 @@ export default function Portfolio() {
                     <p className="text-[hsl(0,0%,63.9%)]">Next.js, Tailwind CSS, Radix UI/Shadcn</p>
                     <p className="text-[hsl(0,0%,63.9%)] mt-2">
                     Built a high-performance, responsive SaaS landing page designed to promote a workflow optimization tool. <br />
-                    The page features a clean, modern UI with smooth navigation, clear call-to-action elements, and SEO-friendly structure.  
+                    Emphasized scalability and developer efficiency through modular components and type safety.   
                     </p>
                     <div className="mt-2">
                       <a href="https://streamlineworkflow.vercel.app/" className="text-blue-500 text-sm mr-4 hover:text-blue-600" target="_blank">
