@@ -59,7 +59,7 @@ export default function Portfolio() {
                     <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)] ">Bill Splitter</h3>
                     <p className="text-[hsl(0,0%,63.9%)]">React, Typescript, Tailwind CSS, Shadcn</p>
                     <p className="text-[hsl(0,0%,63.9%)] mt-2">
-                   Built a responsive and intuitive web application that simplifies group expense splitting.
+                   Web application that simplifies group expense splitting.<br></br>
                    Users can add participants, input expenses, and instantly calculate who owes whom.
                     </p>
                     <div className="mt-2">
@@ -95,7 +95,7 @@ export default function Portfolio() {
                     <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)]">StreamLine</h3>
                     <p className="text-[hsl(0,0%,63.9%)]">Next.js, Tailwind CSS, Radix UI/Shadcn</p>
                     <p className="text-[hsl(0,0%,63.9%)] mt-2">
-                    Built a high-performance, responsive SaaS landing page designed to promote a workflow optimization tool. <br />
+                   High-performance, responsive SaaS landing page designed to promote a workflow optimization tool. <br />
                     Emphasized scalability and developer efficiency through modular components and type safety.   
                     </p>
                     <div className="mt-2">
