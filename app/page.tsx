@@ -56,7 +56,7 @@ export default function Portfolio() {
               <div className="flex-1">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)]">Markdown Notes</h3>
+                    <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)]">MarkdownNotes</h3>
                     <p className="text-[hsl(0,0%,63.9%)]">React, Typescript, Tailwind CSS</p>
                     <p className="text-[hsl(0,0%,63.9%)] mt-2">
                     A live Markdown editor to create interactive notes.<br />
