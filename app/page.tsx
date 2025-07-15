@@ -36,37 +36,37 @@ export default function Portfolio() {
           </p>
         </section>
 
-        {/* Projects Section (replacing Work Experience) */}
+        {/* Projects Section */}
         <section className="mb-16">
           <h2 className="text-xl font-bold mb-5 text-[hsl(0,0%,98%)]">Some projects I built</h2>
 
           <div className="mb-6">
             <div className="flex items-start">
               <div className="mr-4">
-                <div className="w-12 h-12 rounded-full flex items-center justify-center overflow-hidden">
-                  <Image
-                    src="https://www.shutterstock.com/image-vector/split-bill-icon-two-arrows-260nw-2542193945.jpg"
-                    alt="Bill Splitter"
-                    width={50}
-                    height={50}
-                    className="object-contain grayscale mt-1"
+                <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center overflow-hidden">
+                <Image
+                    src="mdnotes.svg"
+                    alt="Markdown Notes Logo"
+                    width={32}
+                    height={32}
+                    className="w-14 h-14 grayscale"
                   />
                 </div>
               </div>
               <div className="flex-1">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)] ">Bill Splitter</h3>
-                    <p className="text-[hsl(0,0%,63.9%)]">React, Typescript, Tailwind CSS, Shadcn</p>
+                    <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)]">Markdown Notes</h3>
+                    <p className="text-[hsl(0,0%,63.9%)]">React, Typescript, Tailwind CSS</p>
                     <p className="text-[hsl(0,0%,63.9%)] mt-2">
-                   Web application that simplifies group expense splitting.<br></br>
-                   Users can add participants, input expenses, and instantly calculate who owes whom.
+                    A live Markdown editor to create interactive notes.<br />
+                    You can preview your notes as you type.
                     </p>
                     <div className="mt-2">
-                      <a href="https://billsplitterr.vercel.app/" className="text-blue-500 text-sm mr-4 hover:text-blue-600" target="_blank">
+                      <a href="https://markdownotes.vercel.app" className="text-blue-500 text-sm mr-4 hover:text-blue-600" target="_blank">
                         View
                       </a>
-                      <a href="https://github.com/mohitngi/bill-splitter" className="text-blue-500 text-sm hover:text-blue-600" target="_blank">
+                      <a href="https://github.com/mohitngi/markdown-notes" className="text-blue-500 text-sm hover:text-blue-600" target="_blank">
                         GitHub
                       </a>
                     </div>
@@ -115,30 +115,30 @@ export default function Portfolio() {
           <div className="mb-6">
             <div className="flex items-start">
               <div className="mr-4">
-                <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center overflow-hidden">
-                <Image
-                    src="BizBlogs.png"
-                    alt="Bizblogs Logo"
-                    width={32}
-                    height={32}
-                    className="pt-3 w-96 h-16 grayscale"
+                <div className="w-12 h-12 rounded-full flex items-center justify-center overflow-hidden">
+                  <Image
+                    src="https://www.shutterstock.com/image-vector/split-bill-icon-two-arrows-260nw-2542193945.jpg"
+                    alt="Bill Splitter"
+                    width={50}
+                    height={50}
+                    className="object-contain grayscale mt-1"
                   />
                 </div>
               </div>
               <div className="flex-1">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)]">Bizblogs</h3>
-                    <p className="text-[hsl(0,0%,63.9%)]">React, Tailwind CSS, Appwrite</p>
+                    <h3 className="font-semibold text-lg text-[hsl(0,0%,98%)] ">Bill Splitter</h3>
+                    <p className="text-[hsl(0,0%,63.9%)]">React, Typescript, Tailwind CSS, Shadcn</p>
                     <p className="text-[hsl(0,0%,63.9%)] mt-2">
-                    The platform allows users to create, read, update, and delete blog posts seamlessly.
-                    Users can create bold descriptions for their posts with TinyMCE rich text editor.
+                   Web application that simplifies group expense splitting.<br></br>
+                   Users can add participants, input expenses, and instantly calculate who owes whom.
                     </p>
                     <div className="mt-2">
-                      <a href="https://bizblogs.vercel.app" className="text-blue-500 text-sm mr-4 hover:text-blue-600" target="_blank">
+                      <a href="https://billsplitterr.vercel.app/" className="text-blue-500 text-sm mr-4 hover:text-blue-600" target="_blank">
                         View
                       </a>
-                      <a href="https://github.com/mohitngi/bizblogs" className="text-blue-500 text-sm hover:text-blue-600" target="_blank">
+                      <a href="https://github.com/mohitngi/bill-splitter" className="text-blue-500 text-sm hover:text-blue-600" target="_blank">
                         GitHub
                       </a>
                     </div>
