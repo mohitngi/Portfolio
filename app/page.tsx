@@ -182,9 +182,7 @@ export default function Portfolio() {
             <span className="px-3 py-1 bg-gray-800 rounded-full text-sm">React</span>
             <span className="px-3 py-1 bg-gray-800 rounded-full text-sm">Tailwind CSS</span>
             <span className="px-3 py-1 bg-gray-800 rounded-full text-sm">Typescript</span>
-            <span className="px-3 py-1 bg-gray-800 rounded-full text-sm">Git & GitHub</span>
-            
-
+            <span className="px-3 py-1 bg-gray-800 rounded-full text-sm">Next.js</span>
           </div>
         </section>
 
