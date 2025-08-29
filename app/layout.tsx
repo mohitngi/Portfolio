@@ -1,17 +1,18 @@
-import type React from "react"
 import "@/app/globals.css"
 import { Inter } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
+import { Providers } from "./Providers"
+import { Suspense } from "react"
+import ErrorBoundary from './components/ErrorBoundary'
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Mohit Negi",
-  description: "Personal portfolio website",
+  description: "Personal portfolio of Mohit N., showcasing projects and skills.",
   icons: {
-    icon: [
-      { url: '/pfp.png', type: 'image/png', sizes: '32x32' },
-    ],
+    icon: '/pfp.png',
+    shortcut: '/pfp.png',
+    apple: '/pfp.png',
   },
 }
 
@@ -23,9 +24,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-          {children}
-        </ThemeProvider>
+        <ErrorBoundary>
+          <Suspense fallback={<div className="min-h-screen flex items-center justify-center bg-gray-900 text-white">Loading...</div>}>
+            <Providers>
+              {children}
+            </Providers>
+          </Suspense>
+        </ErrorBoundary>
       </body>
     </html>
   )
